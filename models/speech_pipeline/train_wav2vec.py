@@ -144,7 +144,7 @@ def main():
 
     torch.save(
         model.state_dict(),
-        save_path
+        "../../Results/speech_wav2vec/wav2vec_bilstm.pth"
     )
 
     print(

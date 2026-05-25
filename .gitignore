@@ -5,4 +5,4 @@ __pycache__/
 .vscode/
 .ipynb_checkpoints/
 # Model weights
-Results/*.pth
+*.pth

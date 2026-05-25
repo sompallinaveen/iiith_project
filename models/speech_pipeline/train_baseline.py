@@ -73,7 +73,7 @@ for epoch in range(epochs):
 # Save model
 torch.save(
     model.state_dict(),
-    "cnn_baseline.pth"
+    "../../Results/speech_baseline/cnn_baseline.pth"
 )
 
 print("Model saved successfully")
